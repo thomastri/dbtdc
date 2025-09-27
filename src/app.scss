@@ -1,0 +1,71 @@
+@import './styles/variables.scss';
+@import 'bulma/css/bulma.css';
+
+// Custom styles for dark theme
+body {
+  background-color: #1a1a1a !important;
+  color: #e0e0e0 !important;
+}
+
+.card {
+  background-color: #2a2a2a !important;
+  color: #e0e0e0 !important;
+}
+
+.input, .textarea, .select select {
+  background-color: #2a2a2a !important;
+  border-color: #3a3a3a !important;
+  color: #e0e0e0 !important;
+}
+
+.input:focus, .textarea:focus, .select select:focus {
+  border-color: #ffffe0 !important;
+  box-shadow: 0 0 0 0.125em rgba(255, 255, 224, 0.25) !important;
+}
+
+.button.is-primary {
+  background-color: #2a2a2a !important;
+  border-color: #3a3a3a !important;
+  color: #ffffe0 !important;
+}
+
+.button.is-primary:hover {
+  background-color: #3a3a3a !important;
+  border-color: #ffffe0 !important;
+}
+
+.button.is-warning {
+  background-color: #ffffe0 !important;
+  color: #1a1a1a !important;
+}
+
+.button.is-warning:hover {
+  background-color: #ffffcc !important;
+}
+
+.title, .subtitle {
+  color: #e0e0e0 !important;
+}
+
+.rating-button {
+  margin: 0.25rem;
+  min-width: 3rem;
+}
+
+.rating-button.selected {
+  background-color: #ffffe0 !important;
+  color: #1a1a1a !important;
+  border-color: #ffffe0 !important;
+}
+
+.emotion-card, .skill-card {
+  margin-bottom: 1.5rem;
+}
+
+.progress-indicator {
+  background-color: #3a3a3a !important;
+}
+
+.progress-indicator .progress {
+  background-color: #ffffe0 !important;
+}
